@@ -8,6 +8,11 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: 'input',
+        message: 'What is the project title?',
+        name: 'title',
+      },
+      {
+        type: 'input',
         message: 'Please describe the project',
         name: 'description',
       },
@@ -54,9 +59,7 @@ function writeToFile(addName, addData) {
 // function to initialize program
 function init() {
     inquirer
-    .prompt([
-        questions()
-    ])
+    .prompt(questions)
     .then((data) => {
   
     const readmeName = `README.md`

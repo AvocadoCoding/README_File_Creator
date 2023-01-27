@@ -6,15 +6,13 @@ function generateMarkdown(data) {
 
   ## Description
 
-  This is my first prjoect
+  ${data.description}
 
   ## Table of Contents 
 
   * [Installation](#installation)
 
   * [Usage](#usage)
-
-  
   
   * [Contributing](#contributing)
 
@@ -32,13 +30,11 @@ function generateMarkdown(data) {
 
   ## Usage
 
-  a bit of javascript
-
-  
+  ${data.usage}
     
   ## Contributing
 
-  Js, html and css
+  ${data.contribution}
 
   ## Tests
 
@@ -50,7 +46,8 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at dav@gmail.com. You can find more of my work at [dav](https://github.com/dav/).
+  If you have any questions about the repo, open an issue or contact me directly at ${data.eMail}. 
+  You can find more of my work at [GitHub](${data.GitHubURL}).
 `;
 }
 
