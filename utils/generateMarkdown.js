@@ -1,6 +1,11 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  
+  return `
+  ![License badge image](https://img.shields.io/badge/License-${data.stack}-black)
+
+  # ${data.title}
+
   # First project
   
 
@@ -47,7 +52,7 @@ function generateMarkdown(data) {
   ## Questions
 
   If you have any questions about the repo, open an issue or contact me directly at ${data.eMail}. 
-  You can find more of my work at [GitHub](${data.GitHubURL}).
+  You can find more of my work at my [GitHub](${data.GitHubURL}) page.
 `;
 }
 
