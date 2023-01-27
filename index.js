@@ -41,7 +41,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
     .prompt([
-        questions();
+        questions()
     ])
     .then((data) => {
   
@@ -49,10 +49,13 @@ function init() {
 
     const finalString = generateMarkdown(data);
 
-    writeToFile(readmeName, finalString)
+    writeToFile(readmeName, finalString,(err) => 
+    err ? console.log(err) : console.log('Success!'))
 
-    }
+    
+    })
 }
 
 // function call to initialize program
-init();
+init()
+
