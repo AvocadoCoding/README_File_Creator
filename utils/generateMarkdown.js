@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   To install necessary dependencies, run the following command:
 
   \`\`\`
-  npm install
+  ${data.installation}
   \`\`\`
 
   ## Usage
@@ -56,4 +56,5 @@ function generateMarkdown(data) {
 `;
 }
 
+// export the generateMarkdown function from this file
 module.exports = generateMarkdown;

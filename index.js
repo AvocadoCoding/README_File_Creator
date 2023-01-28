@@ -18,12 +18,12 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'Please enter installation instructions',
+        message: 'What command should be run to install dependencies?',
         name: 'installation',
       },
       {
         type: 'input',
-        message: 'Please enter usage information',
+        message: 'What knowledge does the user need to run the repository?',
         name: 'usage',
       },
       {
@@ -33,7 +33,7 @@ const questions = [
       },
       {
         type: 'checkbox',
-        message: 'What languages do you know?',
+        message: 'Please choose your project license',
         name: 'stack',
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
       },
