@@ -2,8 +2,6 @@
   ![License badge image](https://img.shields.io/badge/License-MIT-black)
 
   # README file creator
-
-  # First project
   
 
   ## Description

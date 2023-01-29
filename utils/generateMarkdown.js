@@ -6,8 +6,6 @@ function generateMarkdown(data) {
 
   # ${data.title}
 
-  # First project
-  
 
   ## Description
 
