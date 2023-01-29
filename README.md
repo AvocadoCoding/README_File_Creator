@@ -1,50 +1,13 @@
+# README file creator
+An application that creates a project README for the user based on the user inputs.
 
-  ![License badge image](https://img.shields.io/badge/License-MIT-black)
+## About the project
+I have created a README file creator application using javascript and node.js. The application prompts the user to provide various sets of information in the bash terminal, such as project name, description, license details and contact details. Once the information has been entered a README file is created with all of the user inputs, a license badge at the top of the README and an active table of contents.
 
-  # README file creator
-  
 
-  ## Description
+## Screenshot of created README file
 
-  A program that creates professional project README files from user inputs
 
-  ## Table of Contents 
 
-  * [Installation](#installation)
-
-  * [Usage](#usage)
-  
-  * [Contributing](#contributing)
-
-  * [Tests](#tests)
-
-  * [Questions](#questions)
-
-  ## Installation
-
-  To install necessary dependencies, run the following command:
-
-  ```
-  npm i
-  ```
-
-  ## Usage
-
-  javascript and node.js
-    
-  ## Contributing
-
-  Knowledge of javascript and node.js required
-
-  ## Tests
-
-  To run tests, run the following command:
-
-  ```
-  npm run test
-  ```
-
-  ## Questions
-
-  If you have any questions about the repo, open an issue or contact me directly at anyEmail@email.com. 
-  You can find more of my work at my [GitHub](https://github.com/AvocadoCoding) page.
+## Deployed webpage location
+https://github.com/AvocadoCoding/README_File_Creator
