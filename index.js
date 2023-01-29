@@ -1,6 +1,6 @@
 // fs is a Node standard library package for reading and writing files
 const fs = require("fs");
-const path = require('path');
+// const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
